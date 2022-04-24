@@ -89,7 +89,8 @@ button {
 .events-title {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937
+    color: #1f2937;
+    padding-bottom: 15px;
 }
 
 .events {
@@ -100,26 +101,55 @@ button {
 }
 
 .events-container {
+    align-self: center;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     height: 500px;
-    align-items: center;
-    align-content: center;
-    gap: 48px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
 }
 
 .events-container img {
-    width: 250px;
+    width: 200px;
     height: auto;
+    flex: 0 0 auto;
     border: 5px solid #3882f6;
     border-radius: 10px;
 }
 
 .events-container div {
-    max-width: 250px;
+    width: 210px;
+    flex: 0 0 auto;
 }
 
 .events-container p {
     color: #1f2937;
+}
+
+.quote {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text, .quote-author {
+    width: 990px;
+}
+
+.quote-text {
+    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: end;
+    margin: 0;
 }
