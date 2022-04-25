@@ -153,3 +153,38 @@ button {
     text-align: end;
     margin: 0;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.action-title, .action-text {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+}
+
+#action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    height: 36px;
+}
+
+.action-container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 75px;
+    border-radius: 5px;
+    gap: 200px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 25px;
+}
